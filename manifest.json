@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Old Reddit redirect",
+  "author": "Sumukh Nitundila",
+  "description": "Redirects all reddit links to old.reddit.com domain",
+  "version": "1.0",
+  "icons": {
+  },
+  "background": {
+    "scripts":[
+        "background.js"
+        ]
+    },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.reddit.com/*"
+  ]
+}
